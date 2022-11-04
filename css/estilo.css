@@ -3,11 +3,14 @@ body {
     
 
 }
-#info {width:160px; border:thin solid silver; padding:.5em; position:fixed;}
+#info {width:160px; border:thin solid rgb(0, 0, 0); padding:.5em; position:fixed;display: flex;flex-direction: column; width:15em;}
 #info h1 {margin: 0;}
 
 a {
     font-weight: 700;
+}
+#raton{
+    text-align: center;
 }
 
 h4 {
@@ -17,3 +20,17 @@ h4 {
     padding: 0;
     color:cadetblue
 }
+
+.azul{
+    background-color: aqua;
+}
+.amarillo{
+    background-color: yellow;
+}
+
+#container{
+    border: solid;
+    display: block;
+}
+
+
